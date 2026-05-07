@@ -16,7 +16,8 @@ const QuestionStatus = {
   },
 };
 
-//assim pra ser facil de alimentar 
+// TODO: arrumar icons
+// assim pra ser facil de alimentar 
 // caso a proxima tarefa seja fazer funcionar o dashboard
 export default function QuestionItem({ title, description, status, icon }: QuestionItemProps) {
   const { label, className } = QuestionStatus[status];

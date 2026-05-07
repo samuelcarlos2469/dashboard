@@ -1,7 +1,6 @@
 import QuestionItem from "./QuestionItem";
 
 
-// TODO: arrumar icons
 // assim pra ser facil de alimentar 
 // caso a proxima tarefa seja fazer funcionar o dashboard
 type QuestionData = {
@@ -16,13 +15,13 @@ const QUESTIONS_DATA: QuestionData[] = [
     title: "Algoritmo de Ordenação Customizado",
     description: "Criar lógica sem usar métodos embutidos (.sort)",
     status: "revisao",
-    icon: <div />
+    icon: <span className="text-xl">🔢</span>
   },
   {
     title: "Menu Interativo com Laço While",
     description: "Estruturas condicionais e validação de input",
     status: "publicado",
-    icon: <div />
+    icon: <span className="text-xl">ᯓ</span>
   }
 ];
 

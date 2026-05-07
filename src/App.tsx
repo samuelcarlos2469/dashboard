@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import StatsRow from "./components/StatsRow";
+import QuestionsTable from "./components/QuestionsTable";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <Header />
         <main className="mt-8">
           <StatsRow />
+          <QuestionsTable />
         </main>
       </div>
     </div>

@@ -1,25 +1,24 @@
 import StatCard from "./StatCard";
 
 //se for ter que alimentar isso aqui depois, faz um service/hook
-// TODO: arrumar icons
 const STATS_DATA = [
   {
     label: "Alunos Ativos",
     value: "42",
     detail: <span className="text-emerald-500 font-medium">↑ 12% desde o último mês</span>,
-    icon: <div />
+    icon: <span className="text-xl">👥</span>
   },
   {
     label: "Exercícios Resolvidos",
     value: "1.284",
     detail: <span className="text-emerald-500 font-medium">Adequação: 94%</span>,
-    icon: <div />
+    icon: <span className="text-xl">✅</span>
   },
   {
     label: "Dúvidas Pendentes",
     value: "3",
     detail: <span className="text-gray-400">Maior dificuldade: Funções com *args e **kwargs</span>,
-    icon: <div />
+    icon: <span className="text-xl">🔴</span>
   }
 ];
 

@@ -4,7 +4,14 @@ import QuestionItem from "./QuestionItem";
 // TODO: arrumar icons
 // assim pra ser facil de alimentar 
 // caso a proxima tarefa seja fazer funcionar o dashboard
-const QUESTIONS_DATA = [
+type QuestionData = {
+  title: string;
+  description: string;
+  status: "revisao" | "publicado";
+  icon: React.ReactNode;
+};
+
+const QUESTIONS_DATA: QuestionData[] = [
   {
     title: "Algoritmo de Ordenação Customizado",
     description: "Criar lógica sem usar métodos embutidos (.sort)",
